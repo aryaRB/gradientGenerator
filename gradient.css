@@ -1,0 +1,49 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+#Random{
+
+    border-radius: 1cm;
+    border-color: beige;
+    background-color: aquamarine;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600; 
+    color: grey;
+    font-family:'Roboto', sans-serif ;
+    
+  src: url('the-font.eot'); /* IE9 Compat Modes */
+  src: url('the-font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('the-font.woff2') format('woff2'), /* Super Modern Browsers */
+       url('the-font.woff') format('woff'), /* Pretty Modern Browsers */
+       url('the-font.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('the-font.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+     
+}
