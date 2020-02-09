@@ -14,12 +14,12 @@ function setGradient() {
 
 	css.textContent = body.style.background + ";";
 }
-
+//from stackoverflow  
 function getRandomColor() {
-	var letters = '0123456789ABCDEF';
-	var color = '#';
-	for (var i = 0; i < 6; i++) {
-	  color += letters[Math.floor(Math.random() * 16)];
+	var letters = '0123456789ABCDEF';   //here hexadecimal digits are taken that counts 16
+	var color = '#';                     //difined variable # as first value to be choosed as # 
+	for (var i = 0; i < 6; i++) {              // looping from 0 -> 6 i.e #0000ff for blue
+	  color += letters[Math.floor(Math.random() * 16)];            //attaching the # and hex together and creating a random hex
 	}
 	return color;
   }
